@@ -27,7 +27,7 @@ ReleaseNotes: |-
   - Preserve first-finger right-click positioning and display all saved gestures.
   - Integrate Japanese translations and improve UI localization.
   - Download the latest stable Kando for the correct architecture; add managed updates with rollback.
-  - Provide self-contained x64 and ARM64 installers and portable archives.
+  - Provide slim x64 and ARM64 installers and portable archives using shared runtimes. Kando remains an optional download.
 ReleaseNotesUrl: https://github.com/Tomclanc/GestureSignv2/releases/tag/v18.3.3
 Documentations:
 - DocumentLabel: Wiki

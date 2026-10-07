@@ -8,25 +8,31 @@ InstallModes:
 - silent
 - silentWithProgress
 UpgradeBehavior: install
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.10
+    MinimumVersion: 10.0.0
+  - PackageIdentifier: Microsoft.WindowsAppRuntime.2
+    MinimumVersion: 2.3.1
 ReleaseDate: 2026-10-08
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/Tomclanc/GestureSignv2/releases/download/v18.3.3/GestureSign-V2-18.3.3-x64.msi
-  InstallerSha256: 1D7B55E0EEB288E6349EA47D8C53E9A16D27128D71F9CA25BA198E29BC1D5A99
-  ProductCode: '{F897CA69-90BB-4750-B38C-2AF8CDEE9CA7}'
+  InstallerSha256: 6449FB0E0906214151BD547A9CE624DE35E4A89F616EC63DE59974F9CBB90ABD
+  ProductCode: '{53EBD45F-72F3-4870-AC97-556914768369}'
   AppsAndFeaturesEntries:
   - DisplayName: GestureSign V2
     DisplayVersion: 18.3.3
     Publisher: TransposonY / WinUI rebuild
-    ProductCode: '{F897CA69-90BB-4750-B38C-2AF8CDEE9CA7}'
+    ProductCode: '{53EBD45F-72F3-4870-AC97-556914768369}'
 - Architecture: arm64
   InstallerUrl: https://github.com/Tomclanc/GestureSignv2/releases/download/v18.3.3/GestureSign-V2-18.3.3-arm64.msi
-  InstallerSha256: 8BEE2834572A3807CE9DD7F932DAED1E6C4990796F81CD308A22D64B918B9163
-  ProductCode: '{F0D91845-3BB0-47A5-A200-58170D2B0554}'
+  InstallerSha256: 25CE244491EE54738F143924AE1DF50B1563A2A32536E3511B5C8FB5DA94F951
+  ProductCode: '{B4139500-BBD0-4032-AF8D-6675493FB2B9}'
   AppsAndFeaturesEntries:
   - DisplayName: GestureSign V2
     DisplayVersion: 18.3.3
     Publisher: TransposonY / WinUI rebuild
-    ProductCode: '{F0D91845-3BB0-47A5-A200-58170D2B0554}'
+    ProductCode: '{B4139500-BBD0-4032-AF8D-6675493FB2B9}'
 ManifestType: installer
 ManifestVersion: 1.12.0
