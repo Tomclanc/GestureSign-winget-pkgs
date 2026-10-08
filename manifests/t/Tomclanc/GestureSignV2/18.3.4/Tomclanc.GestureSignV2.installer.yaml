@@ -22,7 +22,6 @@ Installers:
   ProductCode: '{15969A5B-2837-49E7-B154-F23DA00E686B}'
   AppsAndFeaturesEntries:
   - DisplayName: GestureSign V2
-    DisplayVersion: 18.3.4
     Publisher: TransposonY / WinUI rebuild
     ProductCode: '{15969A5B-2837-49E7-B154-F23DA00E686B}'
 - Architecture: arm64
@@ -31,7 +30,6 @@ Installers:
   ProductCode: '{CBC0D24A-CC6A-4FAB-9AEC-B9050B99F722}'
   AppsAndFeaturesEntries:
   - DisplayName: GestureSign V2
-    DisplayVersion: 18.3.4
     Publisher: TransposonY / WinUI rebuild
     ProductCode: '{CBC0D24A-CC6A-4FAB-9AEC-B9050B99F722}'
 ManifestType: installer
